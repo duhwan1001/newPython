@@ -69,8 +69,8 @@
 # print()
 
 # 숙제
-for i in range(1,10):
-    print()
-    for j in range(2, 10):
-        print("{} x {} = {}".format(j, i, (i*j)),end="\t")
-print()
+# for i in range(1,10):
+#     print()
+#     for j in range(2, 10):
+#         print("{} x {} = {}".format(j, i, (i*j)),end="\t")
+# print()

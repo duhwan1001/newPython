@@ -1,8 +1,7 @@
-h, m = map(int,input().split(" "))
-tot = (h * 60) + m
-tot = tot - 45
-if tot < 0:
-    tot += 1440
-h = tot // 60
-m = tot % 60
-print(h, m)
+sum1 = 0
+for i in range(1, 101, 1):
+    print(i)
+    if i % 3 == 0:
+        if i % 5 == 0:
+            sum1 += i
+    print("합 : {}".format(sum1))
